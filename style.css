@@ -1,0 +1,311 @@
+body{
+    background-color: rgb(55, 15, 93);
+    width:100%;
+    padding:0px;
+    
+}
+*{
+    box-sizing:border-box;
+}
+.clock{
+    width:200px;
+    height:50px;
+    top:34px;
+    left:124px;
+    position:absolute;
+}
+.time{
+    width:560px;
+    height:350px;
+    position:absolute;
+    left:124px;
+    top:150px;
+    background-color: white;
+    padding:10px;
+    margin:20px;
+    padding:10px;
+}
+select{
+    width:250px;
+    height:50px;
+}
+label{
+    padding-bottom: 10px;
+}
+.gud{
+    width:560px;
+    height:77px;
+    background-color: rgb(76, 4, 143);
+    position: absolute;
+    top:530px;
+    left:145px;
+    color:white;
+    padding:7px;
+}
+.setalarm{
+    width:300px;
+    height:50px;
+    color:white;
+    background-image: linear-gradient(90deg, rgb(20, 4, 83),rgb(231, 18, 174));
+    position:absolute;
+    top:624px;
+    left:145px;
+    font-weight: bold;
+    text-align: center;
+    
+    
+}
+button{
+    color:rgb(225, 25, 138);
+    background-color: rgb(76, 4, 143);
+    
+}
+.sidealarm{
+    width:253px;
+    height:160px;
+    color:rgb(225, 25, 138);
+    background-color: rgb(76, 4, 143);
+    position:absolute;
+    top:625px;
+    left:450px;
+    text-align: center;
+    
+}
+.time1{
+    position:absolute;
+    background-color: white;
+    color:darkmagenta;
+    float:right;
+    padding: 50px 0;
+    
+    
+}
+.box1{
+    position:absolute;
+    width:400px;
+    height:130px;
+    top: 80px;
+    left: 830px;
+    z-index:1;
+    background-color: white;
+    opacity: 0.30;
+    border-radius: 10px;
+} 
+.box2{
+    top: 80px;
+    left: 800px;
+    width: 450px;
+    height: 110px;
+    z-index:2;
+    position:absolute;
+    background-color: white;
+    opacity: 0.50;
+    border-radius: 10px;
+    
+}
+
+.box3{
+    position:absolute;
+    top: 42px;
+    left: 730px;
+    width: 536px;
+    height: 130px;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+    z-index: 3;
+    color:black;
+    background-color:white;
+}   
+.hour{
+    width:82px;
+    height:90px;
+    background-image:url('timeline.svg');
+    color:black;
+    position:absolute;
+    left:70px;
+    top:10px;
+    font-weight: bold;
+    text-align: center;
+    
+   /* top: 62px;
+    left: 823px;
+    width: 80px;
+    height: 90px;
+    background-image: url('timeline.svg');
+    opacity: 1;*/
+}
+
+.semi{
+    top: 10px;
+    left: 150px;
+    width: 4px;
+    height: 22px;
+}
+/*.center{
+    border-radius: 2px;
+    opacity: 1;
+}*/
+.mins{
+    top: 10px;
+    left: 200px;
+    width: 82px;
+    height: 90px;
+    color:black;
+    position:absolute;
+    background-image:url('timeline.svg');
+    font-weight:bold;
+    text-align: center;
+}
+.semi2{
+    top: 10px;
+    left: 300px;
+    width: 4px;
+    height: 22px;
+}
+.secs{
+    top: 10px;
+    left: 320px;
+    width: 82px;
+    height: 90px;
+    color:black;
+    position:absolute;
+    background-image:url('timeline.svg');
+    font-weight:bold;
+    text-align: center;
+}
+.am{
+    top: 10px;
+    left: 430px;
+    width: 82px;
+    height: 90px;
+    position:absolute;
+    background-image:url(AM_svg.svg);
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.grab{
+    top: 252px;
+    left: 750px;
+    width: 560px;
+    height: 80px;
+    font-weight: bold;
+    color:rgb(76, 4, 143);
+    background-color:white;
+    position:absolute;
+    text-align: center;
+    padding:10px;
+}
+.image{
+    width:560px;
+    height:350px;
+    left:750px;
+    top:360px;
+    background-color: white;
+    text-align: center;
+    position:absolute;
+    padding:10px;
+    background-image: url(./Component\ 30\ –\ 1.svg);
+}
+.num
+{
+    font-size: 30px;
+    margin-bottom: 4px;
+    
+}
+.K
+{
+    padding-left: 170px;
+    padding-top: 3px;
+    font-size: 34px;
+}
+.se
+{
+    padding-left: 364px;
+    
+    font-size: 34px;
+    position: relative;
+    margin: -70px;
+}
+.L
+{
+    font-size: x-large;
+    padding: 40px 0px 0px 82px;
+    position: absolute;
+}
+#Hour,#Min,#Sec
+{
+    font-size:50px;
+}
+.j
+{
+    font-size: x-large;
+    position: absolute;
+    margin: -46px 0px 0px 216px;
+}
+.a
+{
+    font-size: x-large;
+    position: absolute;
+    margin: 20px 0px 0px 340px
+}
+#AAM
+{
+    font-size: 45px;
+    padding-top: 15px;
+}
+@media (min-width:540px) and (max-width:1024px){
+         body{
+            height:auto;
+         }
+         .time{
+           position:relative;
+           top:709px;
+           left:162px;
+
+         }
+         .box1{
+           top:185px;
+           left:158px;
+         }
+         .box2{
+           top:166px;
+           left:171px;
+         }
+         .box3{
+        
+            position:relative;
+            top:110px;
+            left:162px;
+
+         }
+         .image{
+            top:-125px;
+            left:174px;
+            position:relative;
+            border-radius:16px;
+         }
+         .gud{
+            top:1231px;
+            left:138px;
+         }
+         .sidealarm{
+            top:1209px;
+            left:133px;
+         }
+         .grab{
+            position: relative;
+            left:169px;
+            top:-174px;
+            width:625px;
+            height:86px;
+            border-radius: 19px;
+         }
+         .setalarm{
+            top:1323px;
+            left:131px;
+         }
+}
